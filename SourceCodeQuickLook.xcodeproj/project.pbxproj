@@ -7,15 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9887F12021CE0CEB009C12A4 /* GenerateThumbnailForURL.c in Sources */ = {isa = PBXBuildFile; fileRef = 9887F11F21CE0CEB009C12A4 /* GenerateThumbnailForURL.c */; };
-		9887F12221CE0CEB009C12A4 /* GeneratePreviewForURL.c in Sources */ = {isa = PBXBuildFile; fileRef = 9887F12121CE0CEB009C12A4 /* GeneratePreviewForURL.c */; };
+		9887F12021CE0CEB009C12A4 /* GenerateThumbnailForURL.m in Sources */ = {isa = PBXBuildFile; fileRef = 9887F11F21CE0CEB009C12A4 /* GenerateThumbnailForURL.m */; };
+		9887F12221CE0CEB009C12A4 /* GeneratePreviewForURL.m in Sources */ = {isa = PBXBuildFile; fileRef = 9887F12121CE0CEB009C12A4 /* GeneratePreviewForURL.m */; };
 		9887F12421CE0CEB009C12A4 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 9887F12321CE0CEB009C12A4 /* main.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9887F11C21CE0CEB009C12A4 /* SourceCodeQuickLook.qlgenerator */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SourceCodeQuickLook.qlgenerator; sourceTree = BUILT_PRODUCTS_DIR; };
-		9887F11F21CE0CEB009C12A4 /* GenerateThumbnailForURL.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = GenerateThumbnailForURL.c; sourceTree = "<group>"; };
-		9887F12121CE0CEB009C12A4 /* GeneratePreviewForURL.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = GeneratePreviewForURL.c; sourceTree = "<group>"; };
+		9887F11F21CE0CEB009C12A4 /* GenerateThumbnailForURL.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GenerateThumbnailForURL.m; sourceTree = "<group>"; };
+		9887F12121CE0CEB009C12A4 /* GeneratePreviewForURL.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GeneratePreviewForURL.m; sourceTree = "<group>"; };
 		9887F12321CE0CEB009C12A4 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		9887F12521CE0CEB009C12A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -50,8 +50,8 @@
 		9887F11E21CE0CEB009C12A4 /* SourceCodeQuickLook */ = {
 			isa = PBXGroup;
 			children = (
-				9887F11F21CE0CEB009C12A4 /* GenerateThumbnailForURL.c */,
-				9887F12121CE0CEB009C12A4 /* GeneratePreviewForURL.c */,
+				9887F11F21CE0CEB009C12A4 /* GenerateThumbnailForURL.m */,
+				9887F12121CE0CEB009C12A4 /* GeneratePreviewForURL.m */,
 				9887F12321CE0CEB009C12A4 /* main.c */,
 				9887F12521CE0CEB009C12A4 /* Info.plist */,
 			);
@@ -135,8 +135,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9887F12021CE0CEB009C12A4 /* GenerateThumbnailForURL.c in Sources */,
-				9887F12221CE0CEB009C12A4 /* GeneratePreviewForURL.c in Sources */,
+				9887F12021CE0CEB009C12A4 /* GenerateThumbnailForURL.m in Sources */,
+				9887F12221CE0CEB009C12A4 /* GeneratePreviewForURL.m in Sources */,
 				9887F12421CE0CEB009C12A4 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
