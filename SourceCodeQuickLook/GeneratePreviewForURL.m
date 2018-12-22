@@ -44,7 +44,7 @@ CFStringRef getSourceCodeType(CFStringRef extention){
 OSStatus GeneratePreviewForURL(void *thisInterface, QLPreviewRequestRef preview, CFURLRef url, CFStringRef contentTypeUTI, CFDictionaryRef options)
 {
     NSFileHandle *handle = [NSFileHandle fileHandleForReadingAtPath:(__bridge NSString*)CFURLCopyPath(url)];
-    NSData *data = [handle readDataOfLength:10*1024]; // 10k 最大
+    NSData *data = [handle readDataOfLength:200*1024]; // 200k 最大
     NSString *string = [NSString stringWithUTF8String:data.bytes];
     int code = 1;
     while (!string && code < 16) {
